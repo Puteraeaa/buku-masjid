@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["...", "python311Packages.supervisor"]
+nixPkgs = ["php81", "nginx", "libmysqlclient", "php81Packages.composer", "nodejs_18", "yarn", "php81Extensions.intl", "python311Packages.supervisor"]
 
 [phases.build]
 cmds = [
